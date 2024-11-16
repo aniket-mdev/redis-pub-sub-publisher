@@ -1,0 +1,12 @@
+[package]
+name = "redis-pub-sub"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "*", features = ["full"] }
+redis = "*"
+uuid = { version = "0.8.2", features = ["v4"] }
+serde_json = "*"
+serde = {version = "*", features = ["derive"]}
+dotenv = "0.15"
